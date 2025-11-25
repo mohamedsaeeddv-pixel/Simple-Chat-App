@@ -1,16 +1,43 @@
-# chatapp
+# 📱 Simple Chat App (Flutter + Firebase)
 
-A new Flutter project.
+A simple real-time chat application built with **Flutter** and **Firebase**, supporting:
 
-## Getting Started
+- 🔐 Email/Password Authentication  
+- 🔐 Google Sign-In  
+- 💬 Real-time messaging using Cloud Firestore  
+- 📦 State management using BLoC / Cubit  
+- 🎨 Clean UI and smooth user experience  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🔑 Authentication
+- Sign in with **email & password**
+- Sign in with **Google**
+- Automatic user login via Firebase `currentUser`
+- Logout with Firebase & Google
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 💬 Chat Messaging
+- Real-time chat messages using **Firestore snapshots**
+- Stores each message with:
+  - Sender UID  
+  - Message text  
+  - Timestamp  
+- Message bubbles styled differently for sender/receiver  
+
+---
+
+## 🏗️ Tech Stack
+
+- **Flutter (Dart)**
+- **Firebase Authentication**
+- **Google Sign-In**
+- **Cloud Firestore**
+- **BLoC / Cubit**
+- **Image Picker (optional for photos)**
+
+---
+
+## 📂 Project Structure
+
